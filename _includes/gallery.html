@@ -3,7 +3,7 @@
   {% for item in site.data.portfolio %}
   <div class="gallery-item">
     {{ item.name }}
-    <img src="{{ site.baseurl }}/images/portfolio/{{item.file-name}}" alt="">
+    <img src="{{ site.baseurl }}/images/portfolio/{{ item.file_name }}" alt="">
     <p>{{ item.about }}</p>
   </div>
   {% endfor %}
